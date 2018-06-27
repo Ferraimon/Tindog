@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3BF42D1176CF373D66791726 /* Pods_Tindog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A9F91532C76517BD4B547D /* Pods_Tindog.framework */; };
+		535010C720E382AD00F7AC0A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535010C620E382AD00F7AC0A /* HomeViewController.swift */; };
 		536BB10320E21E1800BCEEF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536BB10220E21E1800BCEEF9 /* AppDelegate.swift */; };
-		536BB10520E21E1800BCEEF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536BB10420E21E1800BCEEF9 /* ViewController.swift */; };
 		536BB10820E21E1800BCEEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 536BB10620E21E1800BCEEF9 /* Main.storyboard */; };
 		536BB10A20E21E1A00BCEEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 536BB10920E21E1A00BCEEF9 /* Assets.xcassets */; };
 		536BB10D20E21E1A00BCEEF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 536BB10B20E21E1A00BCEEF9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		535010C620E382AD00F7AC0A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		536BB0FF20E21E1800BCEEF9 /* Tindog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tindog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		536BB10220E21E1800BCEEF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		536BB10420E21E1800BCEEF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		536BB10720E21E1800BCEEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		536BB10920E21E1A00BCEEF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		536BB10C20E21E1A00BCEEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		535010C520E3825700F7AC0A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				535010C620E382AD00F7AC0A /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		536BB0F620E21E1800BCEEF9 = {
 			isa = PBXGroup;
 			children = (
@@ -61,8 +69,8 @@
 		536BB10120E21E1800BCEEF9 /* Tindog */ = {
 			isa = PBXGroup;
 			children = (
+				535010C520E3825700F7AC0A /* Controllers */,
 				536BB10220E21E1800BCEEF9 /* AppDelegate.swift */,
-				536BB10420E21E1800BCEEF9 /* ViewController.swift */,
 				536BB10620E21E1800BCEEF9 /* Main.storyboard */,
 				536BB10920E21E1A00BCEEF9 /* Assets.xcassets */,
 				536BB10B20E21E1A00BCEEF9 /* LaunchScreen.storyboard */,
@@ -200,8 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				536BB10520E21E1800BCEEF9 /* ViewController.swift in Sources */,
 				536BB10320E21E1800BCEEF9 /* AppDelegate.swift in Sources */,
+				535010C720E382AD00F7AC0A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
